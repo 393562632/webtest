@@ -13,11 +13,11 @@ public class ServletStart extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.printf("servce doGet service ");
+        System.out.println("servce doGet service ");
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.printf("service doPost service");
+        System.out.println("service doPost service");
     }
 }
